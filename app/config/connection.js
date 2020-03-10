@@ -6,9 +6,9 @@ function Connection() {
   this.init = function() {
     this.pool = mysql.createPool({
       connectionLimit: 10,
-      host: 'localhost',
-      user: 'root',
-      password: 'password',
+      host: 'todo.cx8nccy0c1hj.ap-southeast-1.rds.amazonaws.com',
+      user: 'admin',
+      password: '12345678',
       database: 'todo'
     });
   };
